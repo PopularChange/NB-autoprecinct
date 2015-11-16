@@ -1,0 +1,7 @@
+<?php
+
+define('NB_TOKEN', '');
+define('DEBUG', true);
+define('LOGFILE', 'ridingmap.log')
+
+?>
