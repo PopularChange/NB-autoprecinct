@@ -1,7 +1,7 @@
 # NB-autoprecinct
-precinct mapping script for Nationbuilder based on postal code
+precinct mapping script for Nationbuilder based on postal code. This code is a combined effort of folks at Leadnow.ca and Dogwood Initiative. 
 
-to get it running there are three things to do:
+To get it running there are three things to do:
 1) copy config.php.sample to config.php and enter your NationBuilder API key,
 2) in functions.php, replace the hardcoded precinct IDs with the IDs for your nation (precincts with accents get duplicated - remember the whack-a-mole!)
 3) set up the webhooks in NationBuilder (settings -> developer -> webhooks), I set up two hooks, one for person created and one for person changed (both pointing to the ridingmap.php script)
